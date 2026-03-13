@@ -11,7 +11,7 @@ int main() {
   float area1, area2, pib1, pib2;
   // Área para entrada de dados para a carta 01
   printf ("Digite o nome do Estado 01:  \n");
-  scanf ("%s", estado1);
+  scanf (" %[^\n]", estado1);
   printf ("Digite o código da carta 01:  \n");
   scanf ("%s", codigoDaCarta1);
   printf ("Digite o nome da Cidade 01:  \n");
@@ -27,7 +27,7 @@ int main() {
 
   // Área para entrada de dados para a carta 02
   printf ("Digite o nome Estado 02:  \n");
-  scanf ("%s", estado2);
+  scanf (" %[^\n]", estado2);
   printf ("Digite o código da carta 02:  \n");
   scanf ("%s", codigoDaCarta2);
   printf ("Digite o nome da Cidade 02:  \n");
